@@ -1,5 +1,5 @@
 $('.grid').masonry({
-    columnWidth: 11,
+    columnWidth: 20,
     itemSelector: '.grid-item',
     gutter: 26,
     horizontalOrder: true
