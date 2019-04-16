@@ -1,7 +1,45 @@
 @import url('bootstrap.min.css');
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto');
-
+.bg-orange {
+    background: rgb(20, 61, 97);
+    color: #fff;
+}
+.nav-link
+{
+    color: #fff !important;
+    transition: all 0.5s;
+    padding: 10px 15px !important;
+}
+.nav-link:hover
+{
+    color: #fff !important;
+    background: #0379B7;
+    border-radius: 5px;
+}
+.quotes-title a
+{
+    display: inline-block !important;
+}
+.author
+{
+    width: calc(100% - 70px);
+}
+.quotes-body {
+    box-shadow: 1px 1px 8px 1px #2196f3;
+    border-radius: 9px;
+    padding: 15px;
+}
+.quotes-text
+{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: justify;
+}
+.quotes-author
+{
+    font-family: 'Roboto';
+}
 .grid:after {
     content: '';
     display: block;
@@ -58,7 +96,8 @@
 .tags a
 {
     padding: 5px 10px;
-    background: rgba(255, 255, 255, 0.651);
+    background: #2196f3;
+    color: rgb(245, 251, 252);
     border-radius: 3px;
     font-weight: 600;
     transition: all 0.4s;
@@ -73,21 +112,21 @@
 
 @media (max-width: 575.98px) { 
     .grid-item {
-        width: 32%;
+        width: 24%;
         float: left;
     }
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .grid-item {
-        width: 32%;
+        width: 24%;
         float: left;
     }
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .grid-item {
-        width: 32%;
+        width: 24%;
         float: left;
     }
     .explore-title::before {
@@ -112,7 +151,7 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .grid-item {
-        width: 32%;
+        width: 24%;
         float: left;
     }
     .explore-title::before {
@@ -137,7 +176,7 @@
 
 @media (min-width: 1200px) { 
     .grid-item {
-        width: 32%;
+        width: 24%;
         float: left;
     }
     .explore-title::before {
@@ -176,7 +215,7 @@
 {
     font-size: 25px;
     font-family: 'Lato';
-    color: rgb(99, 165, 223) !important;
+    color: rgb(99, 165, 224) !important;
 }
 #footer ul
 {
