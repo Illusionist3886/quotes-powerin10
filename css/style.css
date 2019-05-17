@@ -1,4 +1,6 @@
 @import url('bootstrap.min.css');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.min.css');
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto');
 .bg-orange {
@@ -16,6 +18,15 @@
     color: #fff !important;
     background: #0379B7;
     border-radius: 5px;
+}
+.blockquote a
+{
+    color: black;
+}
+
+.blockquote a:hover
+{
+    text-decoration: none;
 }
 .quotes-title a
 {
@@ -93,18 +104,14 @@
 {
     color: #16b5ff;
 }
-.tags a
-{
-    padding: 5px 10px;
-    background: #2196f3;
-    color: rgb(245, 251, 252);
+.tags a {
+    padding: 0px 5px;
+    background: #e3e6e9a8;
+    color: rgb(0, 0, 0);
     border-radius: 3px;
-    font-weight: 600;
     transition: all 0.4s;
-    margin: 0 5px;
     font-family: 'Montserrat';
     display: inline-block;
-    margin-top: 5px;
 }
 .tags a:hover {
     text-decoration: none !important;
@@ -158,7 +165,7 @@
     }
     .explore-title::before {
         content: " ";
-        width: 280px;
+        width: 270px;
         height: 2px;
         background: #60BBCA;
         position: absolute;
@@ -167,7 +174,7 @@
     }
     .explore-title::after {
         content: " ";
-        width: 280px;
+        width: 270px;
         height: 2px;
         background: #60BBCA;
         position: absolute;
@@ -183,7 +190,7 @@
     }
     .explore-title::before {
         content: " ";
-        width: 380px;
+        width: 360px;
         height: 2px;
         background: #60BBCA;
         position: absolute;
@@ -192,7 +199,7 @@
     }
     .explore-title::after {
         content: " ";
-        width: 380px;
+        width: 360px;
         height: 2px;
         background: #60BBCA;
         position: absolute;
@@ -238,4 +245,17 @@
     background: rgb(20, 61, 97);
     padding: 20px 0;
     margin-top: 10px;
+}
+.owl-prev
+{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    content: ""
+}
+.owl-next
+{
+    position: absolute;
+    top: -20px;
+    right: 20px;
 }
