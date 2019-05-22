@@ -10,6 +10,8 @@ jQuery(window).on('load', function() {
 
   $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
+        thumbs: true,
+        thumbImage: true,
         loop:true,
         margin:0,
         // autoPlay:true,
